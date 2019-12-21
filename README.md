@@ -1,1 +1,0 @@
-# kristylym.github.io
