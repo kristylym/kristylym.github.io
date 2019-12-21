@@ -1,6 +1,6 @@
 function initialize() {
     var earth = new WE.map('earth');
-    WE.tileLayer('http://tileserver.maptiler.com/nasa/{z}/{x}/{y}.jpg').addTo(earth);
+    WE.tileLayer('https://tileserver.maptiler.com/nasa/{z}/{x}/{y}.jpg').addTo(earth);
 
     var marker = WE.marker([54.58, 73.23]).addTo(earth);
     marker.bindPopup("<span style='color: red;font-weight: bold;'>Омск!</span>", {maxWidth: 40, closeButton: false})
