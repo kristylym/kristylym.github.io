@@ -39,7 +39,6 @@ function initialize() {
     var marker12 = WE.marker([38.53, -77.2]).addTo(earth);
     marker12.bindPopup("Вашингтон ", {maxWidth: 50, closeButton: false});
 
-    var markerCustom = WE.marker([50, -9], '/img/logo-webglearth-white-100.png', 100, 24).addTo(earth);
 
     earth.setView([25, 70], 2.7);
   }
